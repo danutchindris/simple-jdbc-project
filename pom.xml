@@ -19,20 +19,7 @@
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>${postgres.version}</version>
-
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
-                <configuration>
-                    <mainClass>ro.siit.SimpleJdbcConnection</mainClass>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
